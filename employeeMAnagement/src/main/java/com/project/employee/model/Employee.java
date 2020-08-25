@@ -35,6 +35,14 @@ public class Employee {
 	private String gender;
 	@Column
 	private String maritalstatus;
+	@Column
+	private String children;
+	public String getChildren() {
+		return children;
+	}
+	public void setChildren(String children) {
+		this.children = children;
+	}
 	public Long getEmpid() {
 		return empid;
 	}
